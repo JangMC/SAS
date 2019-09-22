@@ -25,6 +25,26 @@ This is an exploratory data analysis with the Ames Housing Dataset. The goal of 
 
 The stock portfolio dataset consists of the daily closing stock prices for twenty stocks and a large-cap index fund from Vanguard. The goal of using the dataset is to use a factor analysis to identify sectors in the stock market.
 
+<b><i> Predicting_Baseball_Team_Wins </b></i>
+
+The goal of this analysis is to predict the number of wins for a professional baseball team in a 162 game season. In order to accomplish this goal, I analyzed the Moneyball dataset that includes 2,276 observations from professional baseball teams from 1871-2006. In order to best predict the number of wins, the following linear regression models were explored: 
+-	A subjective selection of predictors based on correlations
+-	Model selected by forward selection
+-	Model selected by backward selection
+-	Model selected by stepwise regression
+
+<b><i> Predicting_Insurance_Claims </b></i>
+
+Car insurance provides peace of mind to drivers when they are in an accident that they will be able to fix their car. For car insurance providers, it’s important to know how risky a driver is so an insurance policy can be appropriately priced. To appropriately price a policy, many elements need to be taken into consideration such as the likelihood of a person needing to file a claim as well as how much the company may need to pay out on a claim. This is one reason why we may want to model insurance data. The goal of the analysis is to estimate the probability of a driver filing a claim and estimate the amount of the claim. To do this, logistic regression is used. 
+
+<b><i> Predicting_Wine_Sales </b></i>
+
+The goal of this analysis is to predict the number of cases of wine that will be sold given certain properties of the wine. Models explored include generalized linear models with:
+-	Poisson distribution
+-	Negative Binomial distribution
+-	Zero Inflated Poisson distribution
+-	Zero Inflated Negative Binomial distribution
+
 <b><i> Principal_Component_Analysis </b></i>
 
 The stock portfolio dataset consists of the daily closing stock prices for twenty stocks and a large-cap index fund from Vanguard. The goal of using the dataset is to use the log-returns of the twenty individual stocks to explain the variation in the log-returns of the market (Vanguard) index. A linear regression will be used, but because there are so many variables, I also explore the use of a Principal Component Analysis as a method of dimension reduction and as a remedial measure for multicollinearity in Ordinary Least Squares regression. 
