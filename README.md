@@ -1,6 +1,6 @@
 # SAS
 
-<b><i> Cluster Analysis </b></i>
+<b><i> Cluster_Analysis </b></i>
 
 The European employment dataset consists of employment in various industry segments as a percent for thirty European nations. The goal of using this dataset is to perform a cluster analysis. The analysis begins with an exploratory data analysis and concludes with a comparison of cluster results from raw predictor data along with cluster results from transformed predictor variables using principal components analysis.
 
@@ -21,7 +21,7 @@ This is an exploratory data analysis with the Ames Housing Dataset. The goal of 
 -	Exploration of categorical variables of the dataset
 -	Exploration of different visuals such as a histogram, bar chart, and a scatterplot matrix 
 
-<b><i> Factor Aanalysis </b></i>
+<b><i> Factor_Aanalysis </b></i>
 
 The stock portfolio dataset consists of the daily closing stock prices for twenty stocks and a large-cap index fund from Vanguard. The goal of using the dataset is to use a factor analysis to identify sectors in the stock market.
 
